@@ -1,0 +1,9 @@
+  Operating System: Linux 4.9.0-9-amd64 #1 SMP Debian 4.9.168-1+deb9u3 (2019-06-16) x86_64
+  Processor ID:     x86 Family 6 Model 30 Stepping 5, GenuineIntel
+  Host Name:        boogie
+FATAL ERROR in native method: Nativewindow X11 IOError: Display 0x7f6f3c390d40 (localhost:11.0): Resource temporarily unavailable
+FATAL ERROR in native method: Nativewindow X11 IOError: Display 0x7f6ec0c2dbf0 (localhost:11.0): Resource temporarily unavailable
+	at sun.awt.X11.XlibWrapper.XEventsQueued(Native Method)
+	at sun.awt.X11.XToolkit.run(XToolkit.java:565)
+	at sun.awt.X11.XToolkit.run(XToolkit.java:532)
+	at java.lang.Thread.run(Thread.java:748)
